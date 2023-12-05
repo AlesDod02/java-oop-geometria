@@ -14,5 +14,11 @@ public class Main {
 
         System.out.println("l'area del tuo rettangolo è:  "+ rettangolo.areaCalculate());
         System.out.println("il perimetro del tuo rettangolo è:  "+ rettangolo.perimetroCalculate());
+        String disegna = rettangolo.printBase();
+        System.out.println(disegna);
+        /*String heightline = rettangolo.printHeight();
+        System.out.println(heightline);
+        String baseline2 = rettangolo.printBase();
+        System.out.println(baseline2);*/
     }
 }
