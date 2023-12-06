@@ -25,25 +25,27 @@ public class Rectangle {
 
     }
 
-    int perimetroCalculate(){
-        return 2*(base+height);
+    int perimetroCalculate() {
+        return 2 * (base + height);
     }
 
-   String printBase (){
-       String line = "";
-        for (int i =0; i< base;i++) {
-            System.out.print("-");}
-       System.out.println();
+    String printBase() {
+        String line = "";
+        for (int i = 0; i < base; i++) {
+            System.out.print("-");
+        }
+        System.out.println();
 
-        for (int i =0; i< height -2;i++) {
+        for (int i = 0; i < height - 2; i++) {
             System.out.print("|");
-            for (int f =0; f< base -2;f++) {
+            for (int f = 0; f < base - 2; f++) {
                 System.out.print(" ");
             }
             System.out.println("|");
         }
-       for (int i =0; i< base;i++) {
-           System.out.print("-");}
+        for (int i = 0; i < base; i++) {
+            System.out.print("-");
+        }
         return line;
     }
 }
